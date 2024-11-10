@@ -327,3 +327,23 @@ He desarrollado esta competencia al implementar un mecanismo robusto y eficiente
    - La carga simultánea en el vector y en el Árbol AVL, optimizando tanto el acceso secuencial como las operaciones de búsqueda y manejo de duplicados.
 
 El desarrollo de este mecanismo se observa en cómo los datos del archivo `Lista.txt` se procesan de manera eficiente y se almacenan en las estructuras de datos, asegurando un inventario bien organizado, sin duplicados y listo para ser manipulado correctamente.
+
+---
+
+#### Implementa mecanismos de escritura de archivos para guardar los datos de las estructuras de manera correcta
+## Implementación de Mecanismos de Escritura de Archivos para Almacenamiento de Datos
+
+En este proyecto, he implementado un mecanismo de escritura de archivos que permite guardar los datos de las estructuras de manera correcta y organizada. Esto asegura que el inventario de películas pueda persistir fuera de la ejecución del programa, facilitando la recuperación de datos en futuras sesiones y manteniendo un registro ordenado de la información.
+
+He desarrollado esta competencia a través de la implementación de una función en el archivo `main.cpp` llamada `guardarEnArchivo`, la cual se encarga de escribir todos los datos del inventario de películas en un archivo de texto titulado **InventarioPeliculas.txt**. Decidí que el guardado de datos solo se realice al seleccionar la **opción 7** en el menú principal, permitiendo así al usuario controlar cuándo desea guardar los cambios en el archivo. Este mecanismo de escritura sigue una serie de pasos y características que garantizan la precisión y la estructura de los datos almacenados:
+
+1. **Formato de Escritura Estructurada:**
+   La función `guardarEnArchivo` recorre cada elemento del inventario y lo escribe en el archivo en un formato estructurado, donde cada atributo de la película (como el título, director, género, año de lanzamiento y duración) está separado por comas. Este formato asegura que los datos sean consistentes y legibles para futuras recuperaciones, incluso permitiendo que se utilicen posteriormente en otros sistemas de procesamiento de datos.
+
+2. **Persistencia de Datos:**
+   Al guardar el inventario en un archivo externo, garantizo que el programa no dependa exclusivamente de la memoria durante su ejecución. La persistencia de datos permite que el inventario de películas se conserve incluso después de que el programa se cierre, y los usuarios puedan acceder a la información actualizada sin perder datos al reiniciar el sistema.
+
+3. **Manejo Eficiente de Archivos y Control de Errores:**
+   La función `guardarEnArchivo` maneja de manera eficiente la apertura y cierre del archivo `InventarioPeliculas.txt`. Esto se asegura mediante el uso de flujos de salida en C++, que verifican si el archivo está abierto correctamente antes de intentar escribir en él, y que se cierre una vez que se ha completado el proceso de escritura. Este manejo cuidadoso de errores garantiza que el usuario reciba un mensaje si el archivo no puede abrirse, evitando así la pérdida de datos o errores inesperados.
+
+En conclusión, la implementación de la función `guardarEnArchivo` en `main.cpp` demuestra un desarrollo completo de la competencia de mecanismos de escritura en archivos. Esta función garantiza la persistencia de datos, estructura la información de manera legible y maneja los archivos de forma eficiente, cumpliendo con los objetivos de un sistema de inventario que es fiable y fácil de mantener.
