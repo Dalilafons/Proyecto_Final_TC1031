@@ -160,7 +160,7 @@ Este análisis me permitió diseñar un sistema eficiente y escalable, optimizan
 
 ---
 #### Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa.
-En todas las funciones restantes del programa, he descrito su complejidad temporal en los comentarios antes de cada función. Esto asegura que cada componente del sistema tenga un análisis detallado de eficiencia, permitiendo una evaluación exhaustiva de la complejidad del programa en su totalidad, donde podemos observar de manera detallada su complejidad en el peor, en el caso promedio y el mejor de los casos. Este análisis detallado en cada com´ponente me ha permitido obtener un análisis completo del comportamiento del sistema en conjunto y determinar la **complejidad final del programa** de manera precisa.
+En todas las funciones restantes del programa, he descrito su complejidad temporal en los comentarios antes de cada función. Esto asegura que cada componente del sistema tenga un análisis detallado de eficiencia, permitiendo una evaluación exhaustiva de la complejidad del programa en su totalidad, donde podemos observar de manera detallada su complejidad en el peor, en el caso promedio y el mejor de los casos. Este análisis detallado en cada componente me ha permitido obtener un análisis completo del comportamiento del sistema en conjunto y determinar la **complejidad final del programa** de manera precisa.
 
 #### Determinación de la Complejidad Final del Programa
 El proyecto combina varias estructuras de datos y algoritmos para la gestión eficiente de un inventario de películas. A partir del análisis de los componentes principales y sus complejidades individuales, he concluido que la **complejidad final del sistema es** (O(n log n)). Esta complejidad es la dominante y está fundamentada en los siguientes aspectos:
@@ -174,9 +174,15 @@ El proyecto combina varias estructuras de datos y algoritmos para la gestión ef
 3. **Impacto del Vector en el Rendimiento Global:**
    El vector utilizado para almacenar el inventario de películas tiene un impacto menor en la complejidad general del sistema. Aunque ciertas operaciones, como la inserción y eliminación, pueden alcanzar (O(n)) en el peor caso, la mayoría de las interacciones con el vector son de acceso y recorrido, los cuales son (O(1)) y (O(n)), respectivamente. Dado que el rendimiento de ordenamiento y búsqueda es el aspecto dominante, las operaciones del vector no afectan la complejidad final global.
 
-El análisis exhaustivo de cada componente confirma que el ordenamiento mediante Merge Sort es la operación dominante en el programa, elevando la complejidad final del sistema a (O(n log n)). Esta complejidad garantiza que el sistema pueda manejar eficientemente el inventario en casos de grandes volúmenes de datos, sin comprometer la estabilidad ni el rendimiento.
+#### Complejidad Temporal en Diferentes Casos
+El análisis exhaustivo de cada componente confirma que el ordenamiento mediante Merge Sort es la operación dominante en el programa, elevando la complejidad final del sistema a (O(n log n)). La complejidad temporal final del proyecto en los diferentes escenarios es la siguiente:
+- **Mejor caso**: (O(n log n)), debido a que las operaciones de ordenamiento y búsqueda no dependen del estado inicial de los datos y mantienen esta complejidad en todos los casos.
+- **Caso promedio**: (O(n log n)), al igual que el mejor caso, dado que el algoritmo Merge Sort y el árbol AVL garantizan este rendimiento en cualquier configuración de datos.
+- **Peor caso**: (O(n log n)), ya que Merge Sort y el árbol AVL mantienen la misma complejidad temporal en el peor de los escenarios, debido a su estructura estable y balanceada.
 
-En conclusión, el sistema ha sido diseñado con una complejidad final de (O(n log n)), lo que garantiza que el inventario de películas sea gestionado de manera rápida y eficiente, cumpliendo los objetivos de rendimiento y escalabilidad. Este análisis integral y la documentación en el código demuestran un desarrollo completo y preciso de la competencia de análisis de complejidad.
+Este análisis de complejidad final es resultado de una evaluación sistemática y detallada de cada función, así como de una comprensión profunda de cómo las estructuras de datos y algoritmos implementados interactúan en el sistema. La competencia en análisis de complejidad se observa claramente en la documentación de cada función, en la selección de estructuras y algoritmos adecuados, y en la evaluación de cómo contribuyen a la eficiencia y escalabilidad del sistema.
+
+En conclusión, el sistema ha sido diseñado con una **complejidad final de (O(n log n))**, lo que garantiza que el inventario de películas sea gestionado de manera rápida y eficiente, cumpliendo los objetivos de rendimiento y escalabilidad. Este análisis integral y la documentación en el código demuestran un desarrollo completo y preciso de la competencia de análisis de complejidad.
 
 ### SICT0302: Toma decisiones
 #### Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.
