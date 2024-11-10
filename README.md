@@ -51,6 +51,15 @@ Al agregar películas, se verifica que no estén previamente en el árbol AVL pa
     La función `sort()` estándar de C proporcionaba una implementación que no era muy eficaz para mi proyecto, primero por la estabilidad, ya que Merge Sort es un algoritmo muy estable, lo que significa que preserva el orden relativo de los elementos iguales. Esto es útil si necesitas mantener un orden preexistente en otros atributos al ordenar por uno específico, como el título de la película, `sort()` no garantiza estabilidad en todos los casos.
     Por último, aunque `sort()` utiliza Introsort, que combina varios algoritmos, en casos particulares, puede presentar ciertas ineficiencias debido a la variación de estrategias. Merge Sort es consistente en cuanto a su O(n log n) en el mejor, promedio y peor casos.
 
+## Descripción del avance 3
+En este avance, se implementó un mecanismo de persistencia de datos mediante la escritura en archivos, permitiendo que el inventario de películas pueda conservarse entre sesiones. Este mecanismo fue desarrollado a través de la función guardarEnArchivo, la cual guarda el inventario completo en un archivo de texto titulado InventarioPeliculas.txt.
+
+El sistema está diseñado de manera que los cambios en el inventario (como agregar o eliminar películas) no se reflejan de inmediato en el archivo. En cambio, el archivo se actualiza solo cuando el usuario selecciona explícitamente la opción de guardado en el menú principal, permitiendo un mayor control y eficiencia en la gestión de datos.
+
+Además, en este avance se realizó un análisis exhaustivo de la complejidad temporal de todas las funciones restantes del proyecto. Este análisis nos permitió identificar y evaluar la eficiencia de cada componente, determinando así la complejidad temporal final del proyecto. Este estudio asegura que el sistema es escalable y mantiene un rendimiento óptimo incluso con un inventario de gran tamaño.
+
+El avance también incluye el manejo de errores para asegurar que el archivo se abra correctamente antes de intentar escribir en él, evitando problemas como la pérdida de datos. La estructura de los datos en el archivo es clara y organizada, con cada atributo de las películas separado por comas, lo que facilita tanto su lectura como su posible reutilización en otros sistemas.
+
 ## Instrucciones para compilar el avance de proyecto
 Ejecuta el siguiente comando en la terminal:
 
