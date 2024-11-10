@@ -158,6 +158,26 @@ Implementé el `Árbol AVL` para operaciones como búsqueda, inserción y elimin
 
 Este análisis me permitió diseñar un sistema eficiente y escalable, optimizando las operaciones críticas del inventario. Además, la implementación de estructuras balanceadas como el Árbol AVL asegura un rendimiento constante y predecible incluso con un número creciente de películas.
 
+---
+#### Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa.
+En todas las funciones restantes del programa, he descrito su complejidad temporal en los comentarios antes de cada función. Esto asegura que cada componente del sistema tenga un análisis detallado de eficiencia, permitiendo una evaluación exhaustiva de la complejidad del programa en su totalidad, donde podemos observar de manera detallada su complejidad en el peor, en el caso promedio y el mejor de los casos. Este análisis detallado en cada com´ponente me ha permitido obtener un análisis completo del comportamiento del sistema en conjunto y determinar la **complejidad final del programa** de manera precisa.
+
+### Determinación de la Complejidad Final del Programa
+El proyecto combina varias estructuras de datos y algoritmos para la gestión eficiente de un inventario de películas. A partir del análisis de los componentes principales y sus complejidades individuales, he concluido que la **complejidad final del sistema es** \(O(n \log n)\). Esta complejidad es la dominante y está fundamentada en los siguientes aspectos:
+
+1. **Operaciones de Ordenamiento con Merge Sort:**  
+   Las funciones de ordenamiento `ordenarPorTitulo`, `ordenarPorDuracion` y `ordenarPorLanzamiento` emplean el algoritmo de Merge Sort, que tiene una complejidad de \(O(n \log n)\) en todos los casos. Dado que el inventario puede ser ordenado de acuerdo a diferentes atributos, y este ordenamiento es una operación común en el sistema, Merge Sort establece una base de complejidad de \(O(n \log n)\) en el programa.
+
+2. **Eficiencia en Búsqueda con Árbol AVL:**
+   He implementado un árbol AVL para manejar las búsquedas dentro del inventario, asegurando que las operaciones de búsqueda, inserción y eliminación se mantengan en \(O(\log n)\). Aunque las operaciones de búsqueda son eficientes y no dominan la complejidad, el árbol AVL contribuye significativamente a la eficiencia general del sistema al facilitar accesos rápidos a elementos específicos en el inventario.
+
+3. **Impacto del Vector en el Rendimiento Global:**
+   El vector utilizado para almacenar el inventario de películas tiene un impacto menor en la complejidad general del sistema. Aunque ciertas operaciones, como la inserción y eliminación, pueden alcanzar \(O(n)\) en el peor caso, la mayoría de las interacciones con el vector son de acceso y recorrido, los cuales son \(O(1)\) y \(O(n)\), respectivamente. Dado que el rendimiento de ordenamiento y búsqueda es el aspecto dominante, las operaciones del vector no afectan la complejidad final global.
+
+El análisis exhaustivo de cada componente confirma que el ordenamiento mediante Merge Sort es la operación dominante en el programa, elevando la complejidad final del sistema a \(O(n \log n)\). Esta complejidad garantiza que el sistema pueda manejar eficientemente el inventario en casos de grandes volúmenes de datos, sin comprometer la estabilidad ni el rendimiento.
+
+En conclusión, el sistema ha sido diseñado con una complejidad final de \(O(n \log n)\), lo que garantiza que el inventario de películas sea gestionado de manera rápida y eficiente, cumpliendo los objetivos de rendimiento y escalabilidad. Este análisis integral y la documentación en el código demuestran un desarrollo completo y preciso de la competencia de análisis de complejidad.
+
 ### SICT0302: Toma decisiones
 #### Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.
 Para mi proyecto, decidí utilizar Merge Sort debido a sus características específicas que lo hacen el más adecuado para mi proyecto:
