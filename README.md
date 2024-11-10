@@ -162,7 +162,7 @@ Este análisis me permitió diseñar un sistema eficiente y escalable, optimizan
 #### Hace un análisis de complejidad correcto y completo para todos los demás componentes del programa y determina la complejidad final del programa.
 En todas las funciones restantes del programa, he descrito su complejidad temporal en los comentarios antes de cada función. Esto asegura que cada componente del sistema tenga un análisis detallado de eficiencia, permitiendo una evaluación exhaustiva de la complejidad del programa en su totalidad, donde podemos observar de manera detallada su complejidad en el peor, en el caso promedio y el mejor de los casos. Este análisis detallado en cada com´ponente me ha permitido obtener un análisis completo del comportamiento del sistema en conjunto y determinar la **complejidad final del programa** de manera precisa.
 
-##### Determinación de la Complejidad Final del Programa
+#### Determinación de la Complejidad Final del Programa
 El proyecto combina varias estructuras de datos y algoritmos para la gestión eficiente de un inventario de películas. A partir del análisis de los componentes principales y sus complejidades individuales, he concluido que la **complejidad final del sistema es** \(O(n \log n)\). Esta complejidad es la dominante y está fundamentada en los siguientes aspectos:
 
 1. **Operaciones de Ordenamiento con Merge Sort:**  
