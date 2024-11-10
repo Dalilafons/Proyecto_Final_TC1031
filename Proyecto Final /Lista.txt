@@ -1,1 +1,114 @@
-
+titulo, director, genero, lanzamiento, duracion
+El Origen, Christopher Nolan, Ciencia ficcion, 2010, 148
+El Padrino, Francis Ford Coppola, Drama, 1972, 175
+El Caballero Oscuro, Christopher Nolan, Accion, 2008, 152
+Tiempos Violentos, Quentin Tarantino, Drama, 1994, 154
+El Club de la Pelea, David Fincher, Drama, 1999, 139
+Forrest Gump, Robert Zemeckis, Comedia, 1994, 142
+Matrix, Lana Wachowski, Ciencia ficcion, 1999, 136
+El Silencio de los Inocentes, Jonathan Demme, Terror, 1991, 118
+Gladiador, Ridley Scott, Accion, 2000, 155
+La Lista de Schindler, Steven Spielberg, Drama, 1993, 195
+Interestelar, Christopher Nolan, Ciencia ficcion, 2014, 169
+El Resplandor, Stanley Kubrick, Terror, 1980, 146
+Se7en, David Fincher, Terror, 1995, 127
+Rescatando al Soldado Ryan, Steven Spielberg, Accion, 1998, 169
+Volver al Futuro, Robert Zemeckis, Ciencia ficcion, 1985, 116
+Alien, Ridley Scott, Ciencia ficcion, 1979, 117
+Tiburon, Steven Spielberg, Terror, 1975, 124
+El Señor de los Anillos: La Comunidad del Anillo, Peter Jackson, Ciencia ficcion, 2001, 178
+Los Vengadores, Joss Whedon, Accion, 2012, 143
+Toy Story, John Lasseter, Comedia, 1995, 81
+Red Social, David Fincher, Drama, 2010, 120
+Avengers: Endgame, Anthony Russo, Accion, 2019, 181
+Titanic, James Cameron, Drama, 1997, 195
+Parque Jurasico, Steven Spielberg, Ciencia ficcion, 1993, 127
+Corazon Valiente, Mel Gibson, Accion, 1995, 178
+Mad Max: Furia en el Camino, George Miller, Accion, 2015, 120
+Los Increibles, Brad Bird, Comedia, 2004, 115
+Star Wars: Una Nueva Esperanza, George Lucas, Ciencia ficcion, 1977, 121
+El Rey Leon, Roger Allers, Comedia, 1994, 88
+El Sexto Sentido, M. Night Shyamalan, Terror, 1999, 107
+La La Land, Damien Chazelle, Comedia, 2016, 128
+Django Sin Cadenas, Quentin Tarantino, Accion, 2012, 165
+Whiplash, Damien Chazelle, Drama, 2014, 106
+El Gran Hotel Budapest, Wes Anderson, Comedia, 2014, 99
+Cisne Negro, Darren Aronofsky, Drama, 2010, 108
+Logan, James Mangold, Accion, 2017, 137
+Blade Runner 2049, Denis Villeneuve, Ciencia ficcion, 2017, 164
+El Renacido, Alejandro Gonzalez Iñarritu, Drama, 2015, 156
+La Teoria del Todo, James Marsh, Drama, 2014, 123
+Mujer Maravilla, Patty Jenkins, Accion, 2017, 141
+La Forma del Agua, Guillermo del Toro, Ciencia ficcion, 2017, 123
+Bohemian Rhapsody, Bryan Singer, Drama, 2018, 134
+Parasitos, Bong Joon-ho, Drama, 2019, 132
+Joker, Todd Phillips, Drama, 2019, 122
+1917, Sam Mendes, Accion, 2019, 119
+El Irlandes, Martin Scorsese, Drama, 2019, 209
+Tenet, Christopher Nolan, Ciencia ficcion, 2020, 150
+Un Lugar en Silencio, John Krasinski, Terror, 2018, 90
+John Wick, Chad Stahelski, Accion, 2014, 101
+Cazafantasmas, Paul Feig, Comedia, 2016, 116
+Soul, Pete Docter, Comedia, 2020, 100
+La Dama y el Vagabundo, Clyde Geronimi, Comedia, 1955, 76
+V de Vendetta, James McTeigue, Ciencia ficcion, 2005, 132
+Los Miserables, Tom Hooper, Drama, 2012, 158
+Una Mente Brillante, Ron Howard, Drama, 2001, 135
+Rogue One: Una Historia de Star Wars, Gareth Edwards, Ciencia ficcion, 2016, 133
+Moonlight, Barry Jenkins, Drama, 2016, 111
+Her, Spike Jonze, Ciencia ficcion, 2013, 126
+Spider Man: Lejos de Casa, Jon Watts, Accion, 2019, 129
+Gladiador, Ridley Scott, Accion, 2000, 155
+La vida de Pi, Ang Lee, Ciencia ficcion, 2012, 127
+La lista de Schindler, Steven Spielberg, Drama, 1993, 195
+El Gran Gatsby, Baz Luhrmann, Drama, 2013, 143
+El discurso del Rey, Tom Hooper, Drama, 2010, 118
+Perdida, David Fincher, Drama, 2014, 149
+Los Juegos del Hambre, Gary Ross, Ciencia ficcion, 2012, 142
+Dunkerque, Christopher Nolan, Accion, 2017, 106
+Gravity, Alfonso Cuaron, Ciencia ficcion, 2013, 91
+El codigo enigma, Morten Tyldum, Drama, 2014, 113
+La llegada, Denis Villeneuve, Ciencia ficcion, 2016, 116
+Babel, Alejandro Gonzalez Iñarritu, Drama, 2006, 143
+Memento, Christopher Nolan, Drama, 2000, 113
+12 años de esclavitud, Steve McQueen, Drama, 2013, 134
+La habitacion, Lenny Abrahamson, Drama, 2015, 118
+Slumdog Millionaire, Danny Boyle, Drama, 2008, 120
+La teoria del todo, James Marsh, Drama, 2014, 123
+El Marciano, Ridley Scott, Ciencia ficcion, 2015, 144
+El niño con el pijama de rayas, Mark Herman, Drama, 2008, 94
+Dallas Buyers Club, Jean Marc Vallee, Drama, 2013, 117
+El Gran Hotel Budapest, Wes Anderson, Comedia, 2014, 99
+Big Fish, Tim Burton, Drama, 2003, 125
+Animales Fantasticos y donde encontrarlos, David Yates, Ciencia ficcion, 2016, 132
+El secreto de sus ojos, Juan Jose Campanella, Drama, 2009, 129
+El Faro, Robert Eggers, Terror, 2019, 109
+Sin lugar para los debiles, Joel Coen, Accion, 2007, 122
+Rapidos y Furiosos 7, James Wan, Accion, 2015, 137
+Heroes, Lixin Fan, Documental, 2009, 87
+La noche mas oscura, Kathryn Bigelow, Accion, 2012, 157
+El Gran Truco, Christopher Nolan, Drama, 2006, 130
+Matrix Reloaded, Lana Wachowski, Ciencia ficcion, 2003, 138
+Diamante de Sangre, Edward Zwick, Accion, 2006, 143
+Los Miserables, Tom Hooper, Drama, 2012, 158
+Infiltrados, Martin Scorsese, Drama, 2006, 151
+Soy Leyenda, Francis Lawrence, Ciencia ficcion, 2007, 101
+El Artista, Michel Hazanavicius, Drama, 2011, 100
+Logan, James Mangold, Accion, 2017, 137
+El Planeta de los Simios: Confrontacion, Matt Reeves, Ciencia ficcion, 2014, 130
+La Terminal, Steven Spielberg, Comedia, 2004, 128
+Pequeña Miss Sunshine, Jonathan Dayton, Comedia, 2006, 101
+El curioso caso de Benjamin Button, David Fincher, Drama, 2008, 166
+Ex Machina, Alex Garland, Ciencia ficcion, 2014, 108
+Amores Perros, Alejandro Gonzalez Iñarritu, Drama, 2000, 154
+Argo, Ben Affleck, Drama, 2012, 120
+The Shape of Water, Guillermo del Toro, Ciencia ficcion, 2017, 123
+Perdida, David Fincher, Drama, 2014, 149
+Todo Sobre Mi Madre, Pedro Almodovar, Drama, 1999, 101
+Shutter Island, Martin Scorsese, Terror, 2010, 138
+Los Vengadores, Joss Whedon, Accion, 2012, 143
+Capitan America: El Soldado del Invierno, Anthony Russo, Accion, 2014, 136
+El Hombre Araña, Sam Raimi, Accion, 2002, 121
+Interestelar, Christopher Nolan, Ciencia ficcion, 2014, 169
+Hugo, Martin Scorsese, Aventura, 2011, 126
+Blade Runner 2049, Denis Villeneuve, Ciencia ficcion, 2017, 164
