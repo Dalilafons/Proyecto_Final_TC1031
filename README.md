@@ -1,10 +1,13 @@
 # Proyecto: Movie Selector
-Este proyecto consiste en un sistema de inventario de películas que permite agregar, ordenar , buscar y eliminar películas en base a atributos clave, como título, director, género, año de lanzamiento y duración. El sistema utiliza un vector para gestionar las películas, y emplea el algoritmo Merge Sort como método principal para ordenar el inventario de manera eficiente.
+Este proyecto es un sistema de **inventario de películas** que permite gestionar una colección de manera completa y eficiente. El sistema ofrece la posibilidad de **agregar, ordenar, buscar y eliminar películas** en base a atributos clave como título, director, género, año de lanzamiento y duración, facilitando la organización y administración de las películas en un inventario.
 
-Además, se implementa un Árbol AVL como estructura de datos avanzada para asegurar una gestión balanceada del inventario. El Árbol AVL permite optimizar las operaciones de búsqueda, inserción y eliminación, garantizando un rendimiento óptimo en cada operación.
+Para asegurar que el inventario esté siempre ordenado y accesible, el sistema utiliza el algoritmo **Merge Sort**. Este algoritmo avanzado permite ordenar las películas rápidamente según distintos criterios, como el título, la duración o el año de lanzamiento, ofreciendo al usuario una visualización clara y organizada del inventario.
 
-Este enfoque combina la eficiencia de algoritmos avanzados de ordenamiento con estructuras de datos balanceadas, proporcionando una experiencia fluida al gestionar el inventario de películas.
+Además, el sistema incorpora un **Árbol AVL**, una estructura avanzada que optimiza las operaciones de búsqueda y gestión de datos, permitiendo que las búsquedas, inserciones y eliminaciones se realicen de manera eficiente. Esto asegura que el inventario mantenga un rendimiento óptimo y rápido, incluso al trabajar con grandes volúmenes de datos, facilitando el acceso a la información y manteniendo el sistema balanceado.
 
+Para conservar los datos entre sesiones, el sistema incluye un mecanismo de **persistencia de datos**. Toda la información del inventario se guarda en un archivo de texto llamado **InventarioPeliculas.txt**. Este archivo solo se actualiza cuando el usuario selecciona la opción de guardado en el menú principal, proporcionando control sobre el momento en que se almacenan los datos. De esta forma, el usuario puede mantener un registro seguro y actualizado del inventario para futuras consultas.
+
+Este sistema de inventario de películas combina la eficiencia de algoritmos avanzados como Merge Sort y estructuras balanceadas como el Árbol AVL con una persistencia de datos controlada, proporcionando una herramienta robusta, organizada y fácil de usar para la gestión de colecciones de películas.
 ## Descripción del avance 1
 En este primer avance, se ha implementado lo siguiente:
 - Clases `Pelicula` y `Inventario` para gestionar la información de las películas y el inventario de las mismas.
